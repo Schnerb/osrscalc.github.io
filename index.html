@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OSRS Skill Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>OSRS Skill Calculator</h1>
+    <form>
+        <label for="current-level">Current Level:</label>
+        <input type="number" id="current-level" name="current-level"><br><br>
+        <label for="desired-level">Desired Level:</label>
+        <input type="number" id="desired-level" name="desired-level"><br><br>
+        <button type="submit" onclick="handleSubmit(event)">Calculate</button>
+    </form>
+    <p>Experience Required: <span id="exp-required"></span></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
